@@ -5,7 +5,7 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
 " let Vundle manage Vundle
-" required! 
+" required!
 Bundle 'gmarik/vundle'
 
 " original repos on github
@@ -22,6 +22,9 @@ Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-git'
 Bundle 'tpope/vim-surround'
+Bundle 'Rip-Rip/clang_complete'
+Bundle 'nathanaelkane/vim-indent-guides'
+Bundle 'int3/vim-extradite'
 
 " vim-scripts repos
 Bundle 'Pydiction'
@@ -72,3 +75,10 @@ function! s:CloseIfOnlyNerdTreeLeft()
     endif
 endfunction
 "}}}
+
+" Indentation guidlines
+let g:indent_guides_start_level = 2
+let g:indent_guides_guide_size = 4
+
+" Extradite split size
+let g:extradite_width = 84

@@ -7,6 +7,7 @@ Vim but I don't even bother to test it out since I use Gvim almost all of the
 time.
 
 ## Caveats
+- On first startup, run `:BundleInstall` to pull plugins.
 - Expect it to only work smoothly on Unix-like systems with Gvim 7.3 or newer.
 - The use of F-keys will be limited if you run vim on Gnome Terminal, since
 this terminal emulator maps F1 to its own Help window, and F11 to toggling
