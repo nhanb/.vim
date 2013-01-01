@@ -32,6 +32,9 @@ Bundle 'Pydiction'
 " non github repos
 " ...
 
+" My own repos
+Bundle 'nhanb/vim-markdown'
+
 filetype plugin indent on     " required!
 
 " ---------- Some plugin config stuff ---------------
