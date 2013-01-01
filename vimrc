@@ -42,7 +42,7 @@ vnoremap < <gv
 vnoremap > >gv
 
 " Auto change working directory to current file's
-"set autochdir
+set autochdir
 
 " Auto reload file on change
 set autoread
