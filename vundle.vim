@@ -25,6 +25,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'Rip-Rip/clang_complete'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'int3/vim-extradite'
+Bundle 'godlygeek/csapprox'
 
 " vim-scripts repos
 Bundle 'Pydiction'
@@ -52,14 +53,15 @@ endif
 
 " Enable solarized if running gvim, otherwise use wombat"
 set background=dark
+syntax enable
 if (has('gui_running'))
     colorscheme solarized
 else
+    let g:solarized_termcolors=256
+    set t_Co=256
+    set background=dark
     colorscheme solarized
-    "se t_Co=256
-    "let g:solarized_termcolors=256
 endif
-syntax enable
 
 "let g:solarized_termcolors=256
 
@@ -85,3 +87,4 @@ let g:indent_guides_guide_size = 4
 
 " Extradite split size
 let g:extradite_width = 84
+
