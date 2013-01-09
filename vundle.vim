@@ -26,6 +26,7 @@ Bundle 'Rip-Rip/clang_complete'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'int3/vim-extradite'
 Bundle 'godlygeek/csapprox'
+Bundle 'Rip-Rip/clang_complete'
 
 " vim-scripts repos
 Bundle 'Pydiction'
@@ -89,3 +90,6 @@ let g:indent_guides_guide_size = 4
 " Extradite split size
 let g:extradite_width = 84
 
+" Clang_complete
+let g:clang_complete_auto = 1
+let g:clang_complete_copen = 1

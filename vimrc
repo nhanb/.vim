@@ -115,6 +115,7 @@ nnoremap <right> :bnext<cr>
 " Quickly open vimrc
 nnoremap <leader>ve :e<space>~/.vim/vimrc<cr>
 nnoremap <leader>vt :tabe<space>~/.vim/vimrc<cr>
+nnoremap <leader>vv :tabe<space>~/.vim/vundle.vim<cr>
 
 " Write file with sudo permission
 nnoremap <leader>wf :w<space>!sudo<space>tee<space>%<cr>
