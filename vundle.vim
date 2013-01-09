@@ -29,6 +29,7 @@ Bundle 'godlygeek/csapprox'
 
 " vim-scripts repos
 Bundle 'Pydiction'
+Bundle 'peaksea'
 
 " non github repos
 " ...

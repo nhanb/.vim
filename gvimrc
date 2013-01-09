@@ -8,3 +8,5 @@ set guioptions-=l
 set guioptions-=r
 set guioptions-=b
 set guioptions-=L
+
+set guifont=DejaVu\ Sans\ Mono\ for\ Powerline\ 10

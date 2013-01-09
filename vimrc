@@ -47,6 +47,15 @@ set autochdir
 " Auto reload file on change
 set autoread
 
+" Omnicomplete
+autocmd FileType python set omnifunc=pythoncomplete#Complete
+autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
+autocmd FileType php set omnifunc=phpcomplete#CompletePHP
+autocmd FileType c set omnifunc=ccomplete#Complete
+
 " Auto reload .vimrc"{{{
 " The call Pl#Load() at the end is to reload Powerine
 augroup myvimrc
@@ -165,5 +174,13 @@ nnoremap <leader>zt :e<space>~/.oh-my-zsh/themes/nhanb.zsh-theme<cr>
 
 " Open .zshrc
 nnoremap <leader>zr :e<space>~/.zshrc<cr>
+
+" Moving up/down 1 row instead of 1 line (fix wrap issue)
+nnoremap j gj
+nnoremap k gk
+
+" Saner new split position
+set splitbelow
+set splitright
 
 " ============= END KEY CHANGES ======================================="}}}
