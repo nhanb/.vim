@@ -37,6 +37,7 @@ Bundle 'peaksea'
 
 " My own repos
 Bundle 'nhanb/vim-markdown'
+Bundle 'nhanb/vim-sml'
 
 filetype plugin indent on     " required!
 
