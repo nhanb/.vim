@@ -25,7 +25,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'Rip-Rip/clang_complete'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'int3/vim-extradite'
-Bundle 'godlygeek/csapprox'
+"Bundle 'godlygeek/csapprox'
 Bundle 'Rip-Rip/clang_complete'
 
 " vim-scripts repos
@@ -37,7 +37,7 @@ Bundle 'peaksea'
 
 " My own repos
 Bundle 'nhanb/vim-markdown'
-Bundle 'nhanb/vim-sml'
+"Bundle 'nhanb/vim-sml'
 
 filetype plugin indent on     " required!
 
@@ -56,13 +56,12 @@ endif
 
 " Enable solarized if running gvim, otherwise use wombat"
 set background=dark
-syntax enable
+"syntax enable
 if (has('gui_running'))
     colorscheme solarized
 else
-    let g:solarized_termcolors=256
-    set t_Co=256
-    set background=dark
+    "let g:solarized_termcolors=256
+    "set t_Co=256
     colorscheme solarized
 endif
 
