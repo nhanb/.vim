@@ -27,9 +27,10 @@ Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'int3/vim-extradite'
 "Bundle 'godlygeek/csapprox'
 Bundle 'Rip-Rip/clang_complete'
+Bundle 'tejr/vim-tmux'
 
 " vim-scripts repos
-Bundle 'Pydiction'
+"Bundle 'Pydiction'
 Bundle 'peaksea'
 
 " non github repos
