@@ -1,4 +1,4 @@
-# My Personal Vim Config
+# THIS REPO IS OBSOLETE. I've moved everything to my dotfiles repo.
 
 ## Summary
 In my vim setup, I try to utilize functionalities that are offered in the
